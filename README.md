@@ -75,7 +75,7 @@ git --version
 
 <details closed>
 
-#### Startet ein neues Repository in dem Ordner in dem du dich befindest und erstellt ein verstecktes .git Verzeichnis. In diesem Verzeichnis speichert _git_ alle Objekte und Referenzen die als Teil des Projektes erstellt werden.
+##### Startet ein neues Repository in dem Ordner in dem du dich befindest und erstellt ein verstecktes .git Verzeichnis. In diesem Verzeichnis speichert _git_ alle Objekte und Referenzen die als Teil des Projektes erstellt werden.
 
 </details>
 <br>
@@ -84,7 +84,7 @@ git --version
 
 <details closed>
 
-#### Bevor du mit der Verwendung eines Git Repositorys beginnst, trage deinen Benutzernamen und deine Benutzermail in der Konfigurationsdatei ein. Dies kann auf zwei unterschiedliche Weisen geschehen:
+##### Bevor du mit der Verwendung eines Git Repositorys beginnst, trage deinen Benutzernamen und deine Benutzermail in der Konfigurationsdatei ein. Dies kann auf zwei unterschiedliche Weisen geschehen:
 
 <br>
 
