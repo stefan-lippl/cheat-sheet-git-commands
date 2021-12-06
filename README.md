@@ -75,7 +75,7 @@ git --version
 
 <details closed>
 
-### Startet ein neues Repository in dem Ordner in dem du dich befindest und erstellt ein verstecktes .git Verzeichnis. In diesem Verzeichnis speichert _git_ alle Objekte und Referenzen die als Teil des Projektes erstellt werden.
+#### Startet ein neues Repository in dem Ordner in dem du dich befindest und erstellt ein verstecktes .git Verzeichnis. In diesem Verzeichnis speichert _git_ alle Objekte und Referenzen die als Teil des Projektes erstellt werden.
 
 </details>
 <br>
@@ -84,11 +84,11 @@ git --version
 
 <details closed>
 
-### Bevor du mit der Verwendung eines Git Repositorys beginnst, trage deinen Benutzernamen und deine Benutzermail in der Konfigurationsdatei ein. Dies kann auf zwei unterschiedliche Weisen geschehen:
+#### Bevor du mit der Verwendung eines Git Repositorys beginnst, trage deinen Benutzernamen und deine Benutzermail in der Konfigurationsdatei ein. Dies kann auf zwei unterschiedliche Weisen geschehen:
 
 <br>
 
-### Wenn keine andere Konfigurationsoption festgelegt wurde, geschehen Schreibvorgänge mit git config standardmäßig auf lokaler Ebene. Die lokale Konfiguration wird auf das Repository angewendet, in dessen Zusammenhang der Befehl git config ausgeführt wird. Die lokalen Konfigurationswerte werden in einer Datei im .git-Verzeichnis des Repositorys gespeichert: .git/config
+#### Wenn keine andere Konfigurationsoption festgelegt wurde, geschehen Schreibvorgänge mit git config standardmäßig auf lokaler Ebene. Die lokale Konfiguration wird auf das Repository angewendet, in dessen Zusammenhang der Befehl git config ausgeführt wird. Die lokalen Konfigurationswerte werden in einer Datei im .git-Verzeichnis des Repositorys gespeichert: .git/config
 
 ```bash
 git config --local user.name "John Doe"
@@ -97,7 +97,7 @@ git config --local user.email "john@doe.de"
 
 <br>
 
-### Da sich ja unser Name nicht ändert und unsere Mail Adresse auch nicht regelmäßig, gibt es eine einfachere Methode. Und zwar
+#### Da sich ja unser Name nicht ändert und unsere Mail Adresse auch nicht regelmäßig, gibt es eine einfachere Methode. Und zwar
 
 ```bash
 git config --global user.name "John Doe"
