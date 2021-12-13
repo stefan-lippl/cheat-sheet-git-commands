@@ -10,19 +10,16 @@ git --version
 
 ## Git installieren
 
-- ### 1) Mit HomeBrew installieren (Mac)
+- ### Mit HomeBrew installieren (Mac)
 
   ```bash
   brew install git
   ```
 
-- ### 2) Mit Git Installer installieren (Mac + Win)
+- ### Mit Git Installer installieren (Mac + Win)
   - #### [Git Download Seite](https://git-scm.com/downloads)
 
 <br>
-
----
-
 <br>
 <br>
 
@@ -33,36 +30,33 @@ git --version
 3. Developer Settings
 4. Personal Access Token
 5. Neuen Token erstellen
-6. an einem SICHEREN ORT ABSPEICHERN
+6. An einem SICHEREN ORT ABSPEICHERN
 
 <br>
-
----
-
 <br>
 <br>
 
 # 3. Git CLI
 
-| Schritt | CLI Befehl       | Beschreibung                                                                          |
-| ------- | ---------------- | ------------------------------------------------------------------------------------- |
-| 1       | `$ git init`     | Ein lokaler Ordner wird zu einem Git Repository                                       |
-| 2       | `$ git config`   | Username und Usermail werden hinterlegt                                               |
-| 3       | `$ git clone`    | Erzeugt eine Kopie eines bestehendes Repository von einem remote Server (z.B. GitHub) |
-| 4       | `$ git status`   | Zeigt die Datein an, welche geändert wurden                                           |
-| 5       | `$ git diff`     | Zeigt die direkte Änderung in der Datei                                               |
-| 6       | `$ git ignore`   | Git ignoriert Files / Ordner                                                          |
-| 7       | `$ git add`      | Änderungen zum Staging Bereich hinzufügen                                             |
-| 8       | `$ git restore`  | Änderungen vom Staging Bereich entfernen                                              |
-| 9       | `$ git commit`   | Änderungen in das lokale Repository schieben                                          |
-| 10      | `$ git log`      | Gibt eine Überischt der commits zurück                                                |
-| 11      | `$ git branch`   | Eine Kopie für ein neues Feature erstellen und auf der Kopie weiterarbeiten           |
-| 12      | `$ git checkout` | Zwischen den einzelnen Branches wechseln                                              |
-| 13      | `$ git show`     | Commits detailiert anzeigen                                                           |
-| 14      | `$ git push`     | Änderungen des lokalen Repositorys zum remote Server pushen                           |
-| 15      | `$ git fetch`    | Änderungen des remote Repositorys lokal anzeigen (ohne merge)                         |
-| 16      | `$ git merge`    | Änderungen des remote Repositorys zum Code hinzufügen                                 |
-| 17      | `$ git pull`     | fetch + merge                                                                         |
+| Schritt | <div style="width:130px"> CLI Befehl </div> | Beschreibung                                                                                                                                                                                                                                                                                                            |
+| ------- | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1       | `$ git init`                                | Ein lokaler Ordner wird zu einem Git Repository indem ein verstecktes Verzeichnis .git hinzugefügt wird. Dieser Befehl muss beim Projektstart nur einmal ausgeführt werden und ist solange gültig, solange das .git Verzeichnis besteht."                                                                               |
+| 2       | `$ git config`                              | Username und Usermail lokal im Repository hinterlegen <br> `git config --local user.name "John Doe"` <br> `git config --local user.email "john@doe.de"` <br> Username und Usermail global am Git-Client hinterlegen <br> `git config --global user.name "John Doe"` <br> `git config --global user.email "john@doe.de"` |
+| 3       | `$ git clone`                               | Erzeugt eine Kopie eines bestehendes Repository von einem remote Server (z.B. GitHub)                                                                                                                                                                                                                                   |
+| 4       | `$ git status`                              | Zeigt die Datein an, welche geändert wurden                                                                                                                                                                                                                                                                             |
+| 5       | `$ git diff`                                | Zeigt die direkte Änderung in der Datei                                                                                                                                                                                                                                                                                 |
+| 6       | `$ git ignore`                              | Git ignoriert Files / Ordner                                                                                                                                                                                                                                                                                            |
+| 7       | `$ git add`                                 | Änderungen zum Staging Bereich hinzufügen                                                                                                                                                                                                                                                                               |
+| 8       | `$ git restore`                             | Änderungen vom Staging Bereich entfernen                                                                                                                                                                                                                                                                                |
+| 9       | `$ git commit`                              | Änderungen in das lokale Repository schieben                                                                                                                                                                                                                                                                            |
+| 10      | `$ git log`                                 | Gibt eine Überischt der commits zurück                                                                                                                                                                                                                                                                                  |
+| 11      | `$ git branch`                              | Eine Kopie für ein neues Feature erstellen und auf der Kopie weiterarbeiten                                                                                                                                                                                                                                             |
+| 12      | `$ git checkout`                            | Zwischen den einzelnen Branches wechseln                                                                                                                                                                                                                                                                                |
+| 13      | `$ git show`                                | Commits detailiert anzeigen                                                                                                                                                                                                                                                                                             |
+| 14      | `$ git push`                                | Änderungen des lokalen Repositorys zum remote Server pushen                                                                                                                                                                                                                                                             |
+| 15      | `$ git fetch`                               | Änderungen des remote Repositorys lokal anzeigen (ohne merge)                                                                                                                                                                                                                                                           |
+| 16      | `$ git merge`                               | Änderungen des remote Repositorys zum Code hinzufügen                                                                                                                                                                                                                                                                   |
+| 17      | `$ git pull`                                | fetch + merge                                                                                                                                                                                                                                                                                                           |
 
 <br>
 
